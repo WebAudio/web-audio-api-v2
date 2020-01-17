@@ -1,8 +1,12 @@
 ---
 name: Feature Request
 about: Suggest additions for WebAudio
+title: ''
+labels: feature
+assignees: ''
 
 ---
+
 **Describe the feature**
 Briefly describe the feature you would like WebAudio to have.
 

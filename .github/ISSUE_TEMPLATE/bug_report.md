@@ -1,7 +1,10 @@
 ---
 name: Bug Report
 about: Create a report to fix the specification
-label: bug
+title: ''
+labels: ''
+assignees: ''
+
 ---
 
 **Describe the issue**
