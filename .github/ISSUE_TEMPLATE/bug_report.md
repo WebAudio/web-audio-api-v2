@@ -7,9 +7,15 @@ assignees: ''
 
 ---
 
-**Describe the Issue**
-Briefly describe the issue with this site. This includes all issues not related to the spec itself and includes things like the issue tracker not working, wiki pages that are incorrect, and so on.
+**Describe the issue**
+A clear and concise description of what the problem is in the spec.
 
-** Expected Result ** Describe what should have happened
+If you need help on how to use WebAudio, ask on your favorite forum or consider visiting
+the [WebAudio Slack Channel](https://web-audio.slack.com/) (register [here](https://web-audio-slackin.herokuapp.com/)) or
+[StackOverflow](https://stackoverflow.com/).
 
-** Actual Result ** Describe what actually happened and why that is wrong
+**Where Is It**
+Provide a link to where the problem is in the spec
+
+**Additional Information**
+Provide any additional information
