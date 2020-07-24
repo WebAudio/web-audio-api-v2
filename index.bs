@@ -20,9 +20,10 @@ url: https://www.w3.org/TR/mediacapture-streams/#dom-mediadevices-getusermedia; 
 <script>
 window.MathJax = {
   tex: {
-    tags: 'ams',
-    //inlineMath: [['$', '$'], ['\\(', '\\)']],
+    // Enable equation numbering and use AMS numbering rules
+    tags: 'ams'
   },
+  // Note: use \(...\) for inline formulas and $$...$$ for displayed equations.
   options: {
     // Tell Mathjax that we want to process formulas in these tags.  The '[-]' means
     // remove these tags from the default setting.  
@@ -31,7 +32,7 @@ window.MathJax = {
 };
 </script>
 <script id="Mathjax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
 </script>
 
 # Introduction # {#intro}
@@ -48,10 +49,18 @@ $$
 $$
 </xmp>
 
-Another eqn
+Another eqn with number
+<xmp nohighlight>
+  \begin{align}
+    x &= r \sin \theta \\
+    y &= r \cos \theta
+  \end{align}
+</xmp>
+
+Without numbers
 <xmp nohighlight>
   \begin{align*}
-    x &= r \sin x \\
-    y &= r \cos x
+    r &= \sqrt{x^2+y^2} \\
+    \theta &= \tan^{-1}\frac{y}{x}
   \end{align*}
 </xmp>
