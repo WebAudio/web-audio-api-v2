@@ -1,0 +1,57 @@
+<pre class='metadata'>
+Title: Web Audio API V2
+Shortname: webaudio
+Level: 1
+Status: ED
+Group: audiowg
+Repository: WebAudio/web-audio-api-v2
+URL: https://github.com/WebAudio/web-audio-api-v2
+Editor: Paul Adenot, Mozilla (https://www.mozilla.org), padenot@mozilla.com, w3cid 62410
+Editor: Matthew Paradis, BBC (https://www.bbc.com), matthew.paradis@bbc.co.uk
+Test Suite: https://github.com/web-platform-tests/wpt/tree/master/webaudio
+Abstract: A high-level Web  <abbr title="Application Programming Interface">API</abbr>
+	for processing and synthesizing audio in web applications.
+Markup Shorthands: markdown on, dfn on, css off
+</pre>
+<pre class=anchors>
+spec: ECMAScript; url: https://tc39.github.io/ecma262/#sec-data-blocks; type: dfn; text: data block;
+url: https://www.w3.org/TR/mediacapture-streams/#dom-mediadevices-getusermedia; type: method; for: MediaDevices; text: getUserMedia()
+</pre>
+<script>
+window.MathJax = {
+  tex: {
+    tags: 'ams',
+    //inlineMath: [['$', '$'], ['\\(', '\\)']],
+  },
+  options: {
+    // Tell Mathjax that we want to process formulas in these tags.  The '[-]' means
+    // remove these tags from the default setting.  
+    skipHtmlTags: {'[-]': ['pre']}
+  }
+};
+</script>
+<script id="Mathjax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
+# Introduction # {#intro}
+
+
+Introduction here.
+Random inline formula \(E = mc^2\).
+
+## Sub intro ## {#subintro}
+Displayed eqn.
+<xmp nohighlight>
+$$
+  E = mc^2
+$$
+</xmp>
+
+Another eqn
+<xmp nohighlight>
+  \begin{align*}
+    x &= r \sin x \\
+    y &= r \cos x
+  \end{align*}
+</xmp>
