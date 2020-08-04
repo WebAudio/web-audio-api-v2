@@ -1,6 +1,6 @@
 <pre class='metadata'>
 Title: Web Audio API V2
-Shortname: webaudio
+Shortname: webaudio-2
 Level: 1
 Status: ED
 Group: audiowg
@@ -64,3 +64,15 @@ Without numbers
     \theta &= \tan^{-1}\frac{y}{x}
   \end{align*}
 </xmp>
+
+<h2 id="priv-sec">
+Security and Privacy Considerations</h2>
+
+<h2 id="changes">
+Change Log</h2>
+
+<h2 id="acks">
+Acknowledgements</h2>
+
+This specification is the collective work of the W3C <a href="http://www.w3.org/2011/audio/">Audio Working Group</a>.
+
