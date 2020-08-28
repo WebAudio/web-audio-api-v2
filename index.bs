@@ -37,42 +37,17 @@ window.MathJax = {
 
 # Introduction # {#intro}
 
-
-Introduction here.
-Random inline formula \(E = mc^2\).
-
-## Sub intro ## {#subintro}
-Displayed eqn.
-<xmp nohighlight>
-$$
-  E = mc^2
-$$
-</xmp>
-
-Another eqn with number
-<xmp nohighlight>
-  \begin{align}
-    x &= r \sin \theta \\
-    y &= r \cos \theta
-  \end{align}
-</xmp>
-
-Without numbers
-<xmp nohighlight>
-  \begin{align*}
-    r &= \sqrt{x^2+y^2} \\
-    \theta &= \tan^{-1}\frac{y}{x}
-  \end{align*}
-</xmp>
-
 <h2 id="priv-sec">
 Security and Privacy Considerations</h2>
 
 <h2 id="changes">
-Change Log</h2>
+Change Log
+</h2>
 
 <h2 id="acks">
-Acknowledgements</h2>
+Acknowledgements
+</h2>
 
-This specification is the collective work of the W3C <a href="http://www.w3.org/2011/audio/">Audio Working Group</a>.
+This specification is the collective work of the W3C <a
+href="http://www.w3.org/2011/audio/">Audio Working Group</a>.
 
