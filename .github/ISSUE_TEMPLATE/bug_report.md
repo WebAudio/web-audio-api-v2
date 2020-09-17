@@ -2,7 +2,7 @@
 name: Bug Report
 about: Create a report to fix the specification
 title: ''
-labels: Ne
+labels: Needs WG Review
 assignees: ''
 
 ---
