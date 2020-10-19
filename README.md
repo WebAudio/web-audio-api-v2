@@ -6,6 +6,8 @@ This repository contains the latest editor's draft of the [W3C AudioWG](https://
 At this stage, there is no initial draft. The first drafts will include only the new features. 
 However, Web Audio API 2.0 builds on, so will include, all of Web Audio API 1.0.
 
+The [issue tracker](https://github.com/WebAudio/web-audio-api-v2/issues) has labeled issues with loose priorities and categorization, with what will become new features of the Web Audio API.
+
 # Tests
 
 For normative changes, a corresponding
