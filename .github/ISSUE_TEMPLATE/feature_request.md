@@ -2,7 +2,7 @@
 name: Feature Request
 about: Suggest additions for WebAudio
 title: ''
-labels: feature
+labels: feature,Needs WG Review
 assignees: ''
 
 ---
