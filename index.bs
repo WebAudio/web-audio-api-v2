@@ -26,7 +26,7 @@ window.MathJax = {
   // Note: use \(...\) for inline formulas and $$...$$ for displayed equations.
   options: {
     // Tell Mathjax that we want to process formulas in these tags.  The '[-]' means
-    // remove these tags from the default setting.  
+    // remove these tags from the default setting.
     skipHtmlTags: {'[-]': ['pre']}
   }
 };
@@ -36,6 +36,17 @@ window.MathJax = {
 </script>
 
 # Introduction # {#intro}
+
+# The Audio API # {#audioapi}
+
+<h3 id="AudioBuffer">
+The {{AudioBuffer}} Interface</h3>
+
+<pre class="idl">
+[Exposed=(Window, DedicatedWorker)]
+partial interface AudioBuffer {
+};
+</pre>
 
 <h2 id="priv-sec">
 Security and Privacy Considerations</h2>
