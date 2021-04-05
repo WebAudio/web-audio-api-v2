@@ -138,7 +138,7 @@ The `AnalyserNode` currently specifies powers of two both for the size of the
 returned time-domain data and for the size of the frequency domain data.  This
 is probably ok.
 
-## ConvolverNode Implementation
+### ConvolverNode Implementation
 For efficiency, the `ConvolverNode` is often implemented using FFTs.  Typically,
 only power-of-two FFTs have been used because the render size was 128.  To
 support user-selectable sizes, either more complex algorithms are needed to
