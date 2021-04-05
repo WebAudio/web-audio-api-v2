@@ -129,11 +129,11 @@ want to specify the sizes as 0, `r*2`, `r*2^2`, `r*2^3`, `r*2^4`, `r*2^5`,
 `r*2^6`, and `r*2^7`, where `r` is the `renderSize`.
 
 
-# Implementation Issues
+## Implementation Issues
 Conceptually this change is relatively simple, but some nodes may have
 additional complexities.  It is up to the UA to handle these appropriately.
 
-## AnalyserNode Implementation
+### AnalyserNode Implementation
 The `AnalyserNode` currently specifies powers of two both for the size of the
 returned time-domain data and for the size of the frequency domain data.  This
 is probably ok.
@@ -146,5 +146,5 @@ buffer the data appropriately, or more general FFTs are required to support
 sizes that are not a power of two.  It is up to the discretion of the UA to
 implement this appropriately.
 
-## ScriptProcessorNode Implementation
+### ScriptProcessorNode Implementation
 We've already proposed a change for the `ScriptProcessorNode`.
