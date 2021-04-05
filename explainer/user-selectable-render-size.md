@@ -23,12 +23,12 @@ of 192.  Since WebAudio processes 128 frames we have the following behavior:
 
 |iteration | #	number of frames to render |	number of buffers to render |	leftover frames|
 ------------------------------------------------------------------------------------------------
-|0|	192|	2|	64|
-|1|	192|	1|	0|
-|2|	192|	2|	64|
-|3|	192|	1|	0|
-|4|	192|	2|	64|
-|5|	192|	1|	0|
+|0         |	192                        |	2                           |	64             |
+|1         |	192                        |	1                           |	0              |
+|2         |	192                        |	2                           |	64             |
+|3         |	192                        |	1                           |	0              |
+|4         |	192                        |	2                           |	64             |
+|5         |	192                        |	1                           |	0              |
 
 At a sample rate of 48 kHz, 128 frames would require 2.666 ms.  The net result
 is that the **peak** CPU usage is twice has high as might be expected since,
