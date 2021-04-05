@@ -77,8 +77,8 @@ partial interface BaseAudioContext {
 };
 ```
 
-This API assumes that we'll update `AudioContextOptions` and
-`OfflineAudioContextOptions` with a new member, `renderSizeHint`, instead of
+This API assumes that we'll update [`AudioContextOptions`](https://webaudio.github.io/web-audio-api/#dictdef-audiocontextoptions) and
+[`OfflineAudioContextOptions`](https://webaudio.github.io/web-audio-api/#dictdef-offlineaudiocontextoptions) with a new member, `renderSizeHint`, instead of
 defining a new dictionary.
 
 The "default" category means WebAudio will use its default render size of 128
@@ -93,14 +93,14 @@ In any case, the actual render size used by the UA is reported by the attribute
 
 ### "hardware" Category
 #### AudioContext
-For an `AudioContext`, the "hardware" category means WebAudio will ask the
+For an [`AudioContext`](https://webaudio.github.io/web-audio-api/#audiocontext), the "hardware" category means WebAudio will ask the
 system for the appropriate render size for the output device.  The UA is allowed
 to choose the "hardware" value as appropriate; it does not necessary reflect
 what the OS may say is the hardware size.
 
 #### OfflineAudioContext
-For an 'OfflineAudioContext', there's no concept of "hardware", so "hardware" is
-equivalent to "default".  Allowing an `OfflineAudioContext` to have a selectable
+For an ['OfflineAudioContext'](https://webaudio.github.io/web-audio-api/#offlineaudiocontext), there's no concept of "hardware", so "hardware" is
+equivalent to "default".  Allowing an [`OfflineAudioContext`](https://webaudio.github.io/web-audio-api/#offlineaudiocontext) to have a selectable
 size enables testing of the render size.
 
 We explicitly do not support selecting a render size when using the 
@@ -134,12 +134,12 @@ Conceptually this change is relatively simple, but some nodes may have
 additional complexities.  It is up to the UA to handle these appropriately.
 
 ### AnalyserNode Implementation
-The `AnalyserNode` currently specifies powers of two both for the size of the
+The [`AnalyserNode`](https://webaudio.github.io/web-audio-api/#analysernode) currently specifies powers of two both for the size of the
 returned time-domain data and for the size of the frequency domain data.  This
 is probably ok.
 
 ### ConvolverNode Implementation
-For efficiency, the `ConvolverNode` is often implemented using FFTs.  Typically,
+For efficiency, the [`ConvolverNode`](https://webaudio.github.io/web-audio-api/#ConvolverNode) is often implemented using FFTs.  Typically,
 only power-of-two FFTs have been used because the render size was 128.  To
 support user-selectable sizes, either more complex algorithms are needed to
 buffer the data appropriately, or more general FFTs are required to support
@@ -147,4 +147,4 @@ sizes that are not a power of two.  It is up to the discretion of the UA to
 implement this appropriately.
 
 ### ScriptProcessorNode Implementation
-We've already proposed a change for the `ScriptProcessorNode`.
+We've already proposed a change for the [`ScriptProcessorNode`](https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createscriptprocessor).
