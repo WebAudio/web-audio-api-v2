@@ -9,7 +9,6 @@ WARNING: No 'dom-analysernode-maxdecibels' ID found, skipping MDN features that 
 WARNING: No 'dom-analysernode-mindecibels' ID found, skipping MDN features that would target it.
 WARNING: No 'dom-analysernode-smoothingtimeconstant' ID found, skipping MDN features that would target it.
 WARNING: No 'analysernode' ID found, skipping MDN features that would target it.
-WARNING: No 'AudioBuffer' ID found, skipping MDN features that would target it.
 WARNING: No 'dom-audiobuffer-copyfromchannel' ID found, skipping MDN features that would target it.
 WARNING: No 'dom-audiobuffer-copytochannel' ID found, skipping MDN features that would target it.
 WARNING: No 'dom-audiobuffer-duration' ID found, skipping MDN features that would target it.
