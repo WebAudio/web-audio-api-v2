@@ -107,7 +107,6 @@ WARNING: No 'dom-baseaudiocontext-createiirfilter' ID found, skipping MDN featur
 WARNING: No 'dom-baseaudiocontext-createoscillator' ID found, skipping MDN features that would target it.
 WARNING: No 'dom-baseaudiocontext-createpanner' ID found, skipping MDN features that would target it.
 WARNING: No 'dom-baseaudiocontext-createperiodicwave' ID found, skipping MDN features that would target it.
-WARNING: No 'dom-baseaudiocontext-createscriptprocessor' ID found, skipping MDN features that would target it.
 WARNING: No 'dom-baseaudiocontext-createstereopanner' ID found, skipping MDN features that would target it.
 WARNING: No 'dom-baseaudiocontext-createwaveshaper' ID found, skipping MDN features that would target it.
 WARNING: No 'dom-baseaudiocontext-currenttime' ID found, skipping MDN features that would target it.
@@ -149,6 +148,7 @@ WARNING: No 'dom-gainnode-gainnode' ID found, skipping MDN features that would t
 WARNING: No 'dom-gainnode-gain' ID found, skipping MDN features that would target it.
 WARNING: No 'gainnode' ID found, skipping MDN features that would target it.
 WARNING: No 'dom-iirfilternode-iirfilternode' ID found, skipping MDN features that would target it.
+WARNING: No 'dom-iirfilternode-getfrequencyresponse' ID found, skipping MDN features that would target it.
 WARNING: No 'iirfilternode' ID found, skipping MDN features that would target it.
 WARNING: No 'mediaelementaudiosourcenode' ID found, skipping MDN features that would target it.
 WARNING: No 'dom-mediaelementaudiosourcenode-mediaelement' ID found, skipping MDN features that would target it.
@@ -194,8 +194,6 @@ WARNING: No 'dom-pannernode-positiony' ID found, skipping MDN features that woul
 WARNING: No 'dom-pannernode-positionz' ID found, skipping MDN features that would target it.
 WARNING: No 'dom-pannernode-refdistance' ID found, skipping MDN features that would target it.
 WARNING: No 'dom-pannernode-rollofffactor' ID found, skipping MDN features that would target it.
-WARNING: No 'dom-pannernode-setorientation' ID found, skipping MDN features that would target it.
-WARNING: No 'dom-pannernode-setposition' ID found, skipping MDN features that would target it.
 WARNING: No 'pannernode' ID found, skipping MDN features that would target it.
 WARNING: No 'periodicwave' ID found, skipping MDN features that would target it.
 WARNING: No 'dom-stereopannernode-stereopannernode' ID found, skipping MDN features that would target it.
