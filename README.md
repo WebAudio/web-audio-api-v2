@@ -1,3 +1,5 @@
+## NOTE: This repository is archived and read-only. All active V2 issues are transferred to the [V1 repository](https://github.com/WebAudio/web-audio-api). 
+
 # Web Audio API v2.0 Spec
 
 
